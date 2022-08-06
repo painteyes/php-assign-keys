@@ -1,0 +1,68 @@
+td, th {
+    text-align: center;
+}
+
+body {
+    background-color: whitesmoke;
+}
+
+#container {
+    width: 90%;
+    margin: auto;
+}
+
+.logo img {
+    max-width: 250px;
+}
+
+.table {
+    margin-bottom: 20px;
+}
+
+section.col {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+h3 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+
+.pagination.ul {
+    /* display: flex; */
+    display: flex;
+    justify-content: end;
+}
+
+.btn.btn-primary a {
+    color: white;
+    text-decoration: none;
+    margin: auto;
+}
+
+form {
+    /* margin: 10px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.alert.alert-danger, .alert.alert-success  {
+    margin-top: 20px;
+    text-align: center;
+}
+
+input#id{
+    margin-bottom: 20px;
+}
+
+section.col.key {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+}
+
